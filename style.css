@@ -100,6 +100,7 @@ input {
 }
 button{
   position: absolute;
+  cursor: pointer;
   right: 0;
   background: linear-gradient(to top left, hsl(0, 36%, 70%), hsla(0, 91%, 70%, 0.829) 95% 90%);
   border: none;
