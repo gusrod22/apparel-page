@@ -113,3 +113,19 @@ button{
   justify-content: center;
   align-items: center;
 }
+.error-icon{
+  position: absolute;
+  right: 90px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.error-message{
+  width: 100%;
+  color: red;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.error{
+  display: none;
+}
