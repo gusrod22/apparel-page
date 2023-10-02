@@ -119,6 +119,19 @@ button{
   justify-content: center;
   align-items: center;
 }
+.error{
+  display: none;
+}
+.error-icon-container{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 85px;
+}
+.error-message p{
+  color: red;
+  margin-top: 12px;
+}
 
 @media screen and (min-width: 900px) {
   .main-container{
